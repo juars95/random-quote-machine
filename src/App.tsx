@@ -2,7 +2,6 @@ import { useState } from 'react';
 import quotes from "./assets/quotes.json";
 import {FaTwitter, FaQuoteLeft, FaQuoteRight } from "react-icons/fa";
 import './App.css';
-import { TbBackground } from 'react-icons/tb';
 
 interface Quote{
   quote: string;
